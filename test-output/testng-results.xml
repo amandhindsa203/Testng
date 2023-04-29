@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T14:06:44 EDT" name="Regression Suite" finished-at="2023-04-27T14:07:06 EDT" duration-ms="21534">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginTest.ValidateUN(java.lang.String,java.lang.String)[pri:3, instance:test.LoginTest@72e5a8e]" name="ValidateUN" class="test.LoginTest"/>
+        <method signature="LoginTest.inValidateUNValidPW(java.lang.String,java.lang.String)[pri:4, instance:test.LoginTest@72e5a8e]" name="inValidateUNValidPW" class="test.LoginTest"/>
+        <method signature="LoginTest.inValidateUNinValidPW(java.lang.String,java.lang.String)[pri:5, instance:test.LoginTest@72e5a8e]" name="inValidateUNinValidPW" class="test.LoginTest"/>
+        <method signature="LoginTest.ValidateUNinValidPW(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@72e5a8e]" name="ValidateUNinValidPW" class="test.LoginTest"/>
+        <method signature="LoginTest.ValidateLoginButton()[pri:7, instance:test.LoginTest@72e5a8e]" name="ValidateLoginButton" class="test.LoginTest"/>
+        <method signature="LoginTest.ValidateUN(java.lang.String,java.lang.String)[pri:3, instance:test.LoginTest@8f2ef19]" name="ValidateUN" class="test.LoginTest"/>
+        <method signature="LoginTest.inValidateUNValidPW(java.lang.String,java.lang.String)[pri:4, instance:test.LoginTest@8f2ef19]" name="inValidateUNValidPW" class="test.LoginTest"/>
+        <method signature="LoginTest.inValidateUNinValidPW(java.lang.String,java.lang.String)[pri:5, instance:test.LoginTest@8f2ef19]" name="inValidateUNinValidPW" class="test.LoginTest"/>
+        <method signature="LoginTest.ValidateUNinValidPW(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@8f2ef19]" name="ValidateUNinValidPW" class="test.LoginTest"/>
+        <method signature="LoginTest.ValidateLoginButton()[pri:7, instance:test.LoginTest@8f2ef19]" name="ValidateLoginButton" class="test.LoginTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-27T14:06:44 EDT" name="RegressionTest Chrome" finished-at="2023-04-27T14:06:53 EDT" duration-ms="8680">
+      <class name="test.LoginValidations">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidations@4686afc2]" started-at="2023-04-27T14:06:51 EDT" name="beforeSuite" finished-at="2023-04-27T14:06:53 EDT" duration-ms="1830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="ValidateUrl()[pri:0, instance:test.LoginValidations@4686afc2]" started-at="2023-04-27T14:06:53 EDT" name="ValidateUrl" finished-at="2023-04-27T14:06:53 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUrl -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginValidations@4686afc2]" started-at="2023-04-27T14:06:53 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:53 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginValidations@4686afc2]" started-at="2023-04-27T14:06:53 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:53 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateTitle()[pri:1, instance:test.LoginValidations@4686afc2]" started-at="2023-04-27T14:06:53 EDT" name="ValidateTitle" finished-at="2023-04-27T14:06:53 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.LoginValidations@4686afc2]" started-at="2023-04-27T14:06:53 EDT" name="afterSuite" finished-at="2023-04-27T14:06:53 EDT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.LoginValidations -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:44 EDT" name="beforeSuite" finished-at="2023-04-27T14:06:49 EDT" duration-ms="4853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="BeforeClas()[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:49 EDT" name="BeforeClas" finished-at="2023-04-27T14:06:49 EDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClas -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:49 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:49 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateUN(java.lang.String,java.lang.String)[pri:3, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:49 EDT" name="ValidateUN" finished-at="2023-04-27T14:06:49 EDT" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUN -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:49 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:49 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="inValidateUNValidPW(java.lang.String,java.lang.String)[pri:4, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:49 EDT" name="inValidateUNValidPW" finished-at="2023-04-27T14:06:50 EDT" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@text.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidateUNValidPW -->
+        <test-method signature="inValidateUNinValidPW(java.lang.String,java.lang.String)[pri:5, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:50 EDT" name="inValidateUNinValidPW" finished-at="2023-04-27T14:06:50 EDT" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@text.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidateUNinValidPW -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:50 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:50 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateUNinValidPW(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:50 EDT" name="ValidateUNinValidPW" finished-at="2023-04-27T14:06:50 EDT" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUNinValidPW -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:50 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:50 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:50 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:50 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateLoginButton()[pri:7, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:50 EDT" name="ValidateLoginButton" finished-at="2023-04-27T14:06:51 EDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginButton -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.LoginTest@72e5a8e]" started-at="2023-04-27T14:06:51 EDT" name="afterSuite" finished-at="2023-04-27T14:06:51 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- RegressionTest Chrome -->
+    <test started-at="2023-04-27T14:06:53 EDT" name="RegressionTest Firefox" finished-at="2023-04-27T14:07:06 EDT" duration-ms="12784">
+      <class name="test.LoginValidations">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidations@470734c3]" started-at="2023-04-27T14:07:01 EDT" name="beforeSuite" finished-at="2023-04-27T14:07:05 EDT" duration-ms="3462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="ValidateUrl()[pri:0, instance:test.LoginValidations@470734c3]" started-at="2023-04-27T14:07:05 EDT" name="ValidateUrl" finished-at="2023-04-27T14:07:05 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUrl -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginValidations@470734c3]" started-at="2023-04-27T14:07:05 EDT" name="beforeMethod" finished-at="2023-04-27T14:07:05 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateTitle()[pri:1, instance:test.LoginValidations@470734c3]" started-at="2023-04-27T14:07:05 EDT" name="ValidateTitle" finished-at="2023-04-27T14:07:05 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginValidations@470734c3]" started-at="2023-04-27T14:07:05 EDT" name="beforeMethod" finished-at="2023-04-27T14:07:05 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.LoginValidations@470734c3]" started-at="2023-04-27T14:07:05 EDT" name="afterSuite" finished-at="2023-04-27T14:07:06 EDT" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.LoginValidations -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:53 EDT" name="beforeSuite" finished-at="2023-04-27T14:06:58 EDT" duration-ms="5321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="BeforeClas()[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:58 EDT" name="BeforeClas" finished-at="2023-04-27T14:06:58 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClas -->
+        <test-method signature="ValidateUN(java.lang.String,java.lang.String)[pri:3, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:58 EDT" name="ValidateUN" finished-at="2023-04-27T14:06:59 EDT" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUN -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:58 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:58 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:59 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:59 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="inValidateUNValidPW(java.lang.String,java.lang.String)[pri:4, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:59 EDT" name="inValidateUNValidPW" finished-at="2023-04-27T14:06:59 EDT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@text.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidateUNValidPW -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:59 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:59 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="inValidateUNinValidPW(java.lang.String,java.lang.String)[pri:5, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:59 EDT" name="inValidateUNinValidPW" finished-at="2023-04-27T14:06:59 EDT" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@text.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidateUNinValidPW -->
+        <test-method signature="ValidateUNinValidPW(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:59 EDT" name="ValidateUNinValidPW" finished-at="2023-04-27T14:06:59 EDT" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUNinValidPW -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:06:59 EDT" name="beforeMethod" finished-at="2023-04-27T14:06:59 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateLoginButton()[pri:7, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:07:00 EDT" name="ValidateLoginButton" finished-at="2023-04-27T14:07:00 EDT" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginButton -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:07:00 EDT" name="beforeMethod" finished-at="2023-04-27T14:07:00 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.LoginTest@8f2ef19]" started-at="2023-04-27T14:07:00 EDT" name="afterSuite" finished-at="2023-04-27T14:07:01 EDT" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- RegressionTest Firefox -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+  <parameter name="ValidUN" value="abc@gmail.com"></parameter>
+<parameter name="ValidPW" value="xyz@123"></parameter>
+<parameter name="inValidUN" value="xyz@text.com"></parameter>
+ <parameter name="inValidPW" value="123abc"></parameter> 
+  <parameter name="url" value="https://www.facebook.com/"></parameter> 
+  
+  <test thread-count="5" name="Test">  
+   <classes>
+      
+      <class name="test.LoginValidations"/>
+      <class name="test.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
